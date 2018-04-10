@@ -6,6 +6,12 @@ The intrusion detection system plays an important role in securing our system, b
 
 As many research efforts have been made about IoT security challenges, we here mainly focus on addressing security challenges in the IoT and building a light-weight Intrusion Detection System. Our approach will provide a layer of defense which monitors network traffic for predefined suspicious activity or patterns, and alert system administrators when potential hostile traffic is detected.
 
+### Problem Statement
+
+* What are the current Security and Privacy concerns related to the Internet of things?
+* Would it be efficient to build an Intrusion Detection System for each layer of the IOT rather than the traditional methods where we build one IDS for the whole IOT architecture?
+* Would it be a better choice to use Neural Networks out of all Machine Learning algorithms to implement a light-weight Intrusion Detection System for the IOT setting?
+
 ### Architecture
 
 A snippet of the data preparation file has been provided along with a template to perform machine learning techniques on the dataset. 
@@ -13,12 +19,6 @@ A snippet of the data preparation file has been provided along with a template t
 <img src="Images/Architecture.jpg" width="85%">
 
 After examining, the ways of improving the IoT architecture, in this project, we propose not to build the IDS as the firewall for the whole IOT setting, but rather to implement three different Intrusion Detection Systems at the respective TCP/IP Layer, Network Layer and Application Layer based on the malware attacks that occur at each layer. This can be done by pre-processing the PCAP/TCPDUMP file accordingly.
-
-### Problem Statement
-
-* What are the current Security and Privacy concerns related to the Internet of things?
-* Would it be efficient to build an Intrusion Detection System for each layer of the IOT rather than the traditional methods where we build one IDS for the whole IOT architecture?
-* Would it be a better choice to use Neural Networks out of all Machine Learning algorithms to implement a light-weight Intrusion Detection System for the IOT setting?
 
 ## Implementation
 
