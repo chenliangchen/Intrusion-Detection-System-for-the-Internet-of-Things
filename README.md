@@ -16,7 +16,7 @@ As many research efforts have been made about IoT security challenges, we here m
 
 A snippet of the data preparation file has been provided along with a template to perform machine learning techniques on the dataset. 
 
-<img src="Images/Architecture.jpg" width="85%">
+<img src="Images/Architecture.jpg" width="75%">
 
 After examining, the ways of improving the IoT architecture, in this project, we propose not to build the IDS as the firewall for the whole IOT setting, but rather to implement three different Intrusion Detection Systems at the respective TCP/IP Layer, Network Layer and Application Layer based on the malware attacks that occur at each layer. This can be done by pre-processing the PCAP/TCPDUMP file accordingly.
 
