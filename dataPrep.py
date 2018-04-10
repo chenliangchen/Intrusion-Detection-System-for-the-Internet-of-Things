@@ -45,8 +45,7 @@ dataset.columns = ["ifInOctets11",
 "icmpOutEchoReps",
 "labels"]
 
-allLayer = dataset[(dataset['labels'].isin(["normal", "icmp-echo", "tcp-syn", "udp-flood", 
-											"httpFlood", "slowloris", "slowPost", "bruteForce"]))]
+allLayer = dataset[(dataset['labels'].isin(["normal", "icmp-echo", "tcp-syn", "udp-flood", "httpFlood", "slowloris", "slowPost", "bruteForce"]))]
 
 print("\nNumber of possible attacks from the PCAP file:\n")
 print(allLayer['labels'].value_counts())
